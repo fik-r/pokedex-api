@@ -4,10 +4,10 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
-var indexRouter = require('../routes/index');
-var catchRouter = require('../routes/catch');
-var renameRouter = require('../routes/rename');
-var releaseRouter = require('../routes/release');
+var indexRouter = require('./routes/index');
+var catchRouter = require('./routes/catch');
+var renameRouter = require('./routes/rename');
+var releaseRouter = require('./routes/release');
 
 var app = express()
 
